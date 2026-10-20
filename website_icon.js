@@ -4,7 +4,7 @@ function setImage() {
   const icon = document.getElementById("icon")
   if (!icon) return
 
-  let image_path = "icons/"
+  let image_path = "/icons/"
   switch (current_month) {
     case 1: image_path += "valentines.png"; break
     case 2: image_path += "stpattys.png"; break

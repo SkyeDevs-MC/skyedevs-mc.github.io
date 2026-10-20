@@ -4,7 +4,7 @@ function setRank() {
   const jsonString = '{"rank_level": "media1"}'
   const rank = JSON.parse(jsonString)
 
-  let image_path = "bmc_rank_tags/"
+  let image_path = "/bmc_rank_tags/"
   switch (rank.rank_level) {
     case "founder":
       image_path += "halloweenfounder2026.png"
