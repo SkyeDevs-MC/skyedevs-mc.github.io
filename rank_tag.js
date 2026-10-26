@@ -1,7 +1,7 @@
 function setRank() {
   const tag = document.getElementById("rank")
   if (!tag) return
-  const jsonString = '{"rank_level": "media1"}'
+  const jsonString = '{"rank_level": "qa"}'
   const rank = JSON.parse(jsonString)
 
   let image_path = "/bmc_rank_tags/"
